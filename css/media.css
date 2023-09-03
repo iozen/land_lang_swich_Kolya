@@ -1,0 +1,324 @@
+ @media screen and (max-width: 1199px) {
+	.logo {
+		width: 100%;
+		height: auto;
+	}
+	.call_top_button {
+		width: 100%;
+		font-size: 18px;
+	}
+	.main_slider_bg h1 {
+		font-size: 40px;
+		margin-top: 20px;
+	}
+	.we_do {
+		margin: 0 auto;
+	}
+	.main_slider_bg {
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.advantages_block {
+		margin-bottom: 20px;
+	}
+	.sroki_a {
+		margin-top: 0;
+		margin-bottom: 20px;
+		position: relative;
+	}
+	.give_cons {
+		margin: 22px auto 0 auto;
+	}
+	.arrow_system {
+		display: none;
+	}
+	.system_block {
+		margin-bottom: 20px;
+	}
+	.system_bg {
+		background: #fff;
+	}
+	.waranty_icon {
+		margin: 15px auto 0 auto;
+		width: 75%;
+		height: auto;
+	}
+	.waranty_text {
+		margin-top: 0;
+	}
+	.waranty_text .title {
+		font-size: 35px;
+	}
+	.waranty_text p {
+		font-size: 18px;
+	}
+	.yellow_text {
+		font-size: 22px;
+	}
+	.waranty_bg {
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.main_form_h1 {
+		font-size: 33px;
+		margin-top: 20px;
+	}
+	.main_form_h2 {
+		font-size: 21px;
+	}
+	.main_form_bg {
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.hide1 {
+		display: none;
+	}
+	.review_block {
+		margin: 0 auto;
+	}
+	.reviews_bg {
+		height: auto;
+		padding-bottom: 40px;
+	}
+	.bx-wrapper .bx-controls-direction a {
+		display: none;
+	}
+	.logo_white {
+		width: 100%;
+		height: auto;
+	}
+	.bottom_nav li {
+		padding-left: 0;
+		margin-right: 19px;
+	}
+	.bottom_nav li:last-child {
+		margin-right: 0;
+	}
+	.bottom_nav li a {
+		padding-right: 0;
+		border-right: none;
+	}
+	.pol {
+		margin-left: 0;
+	}
+	.map_inside_block:before {
+		display: none;
+	}
+	.uslugi_bg:before {
+		display: none;
+	}
+	.acordeon_photo {
+		width: 100%;
+		height: auto;
+	}
+	.footer_bg {
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.consultation_block {
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.text_advantages {
+		position: relative;
+	}
+	.we_do {
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.acordeon_photo {
+		margin-bottom: 25px;
+	}
+	.review_block {
+		height: auto;
+		margin: 0 auto;
+		display: block;
+	}
+	.bx-wrapper .bx-viewport {
+		height: auto !important;
+	}
+	.bxslider .col-md-6 {
+		width: 100%;
+	}
+ }
+  @media screen and (max-width: 991px) { 
+	.waranty_icon {
+		width: 40%;
+	}
+	.list_wrp {
+		width: 218px;
+		margin: 0 auto;
+	}
+	.list_wrp ul {
+		display: block;
+	}
+  }
+ @media screen and (max-width: 767px) {
+ 	.call_top {
+ 		text-align: center;
+ 	}
+ 	.call_top_button {
+ 		margin: 15px auto;
+ 	}
+ 	.main_slider_bg h1 {
+ 		font-size: 28px;
+ 		margin-top: 15px;
+ 	}
+ 	.consultation_block {
+ 		width: 100%;
+ 	}
+ 	.consultation_block .title {
+ 		font-size: 22px;
+ 	}
+ 	.we_do {
+ 		width: 100%;
+ 		height: auto;
+ 		padding-bottom: 15px;
+
+ 	}
+ 	.we_do .title {
+ 		font-size: 22px;
+ 		margin-top: 15px;
+ 	}
+ 	.we_do ul:nth-child(2) {
+ 		margin-right: 0;
+ 	}
+ 	.we_do ul {
+ 		margin-top: 10px;
+ 		margin-bottom: 0;
+ 	}
+ 	.advantages_wrap {
+ 		padding-top: 20px;
+ 		padding-bottom: 20px;
+ 	}
+ 	body .h1 {
+ 		font-size: 32px;
+ 		margin-top: 20px;
+ 	}
+ 	.acordeon_wrap .panel-title a {
+ 		font-size: 20px;
+ 	}
+ 	.blue_block {
+    	width: 100%;
+    	height: auto;
+    	background-color: #3097cb;
+    	border-top-left-radius: 10px;
+    	border-bottom-left-radius: 0px;
+    	border-top-right-radius: 10px;
+    	display: block;
+    	text-align: center;
+    	padding: 8px 0;
+    	float: none;
+    	margin: 0;
+	}
+	.s_text {
+    	margin-top: 15px;
+    	width: 100%;
+    	display: block;
+    	vertical-align: middle;
+    	text-align: center;
+    	float: none;
+	}
+	.img_wrapper {
+		text-align: center;
+		display: block;
+	}
+	.img_wrapper img {
+		margin: 0px auto;
+		display: block;
+		width: 15%;
+		height: auto;
+	}
+	.s_button {
+		margin: 0 auto 15px auto;
+	}
+	.waranty_text .title {
+		text-align: center;
+	}
+	.waranty_text p {
+		font-size: 16px;
+		text-align: center;
+	}
+	.waranty_text .divider {
+		margin: 5px auto;
+	}
+	.yellow_text {
+		font-size: 18px;
+		line-height: 18px;
+		text-align: center;
+	}
+	.main_form_h1 {
+		font-size: 25px;
+		line-height: 28px;
+	}
+	.main_form_h2 {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.main_form_bg .cons_input {
+		margin: 0 0 10px 0;
+	}
+	.review_block img {
+		width: 50%;
+		margin: 0 auto 10px auto;
+		float: none;
+	}
+	.review_text {
+		float: none;
+		width: 100%;
+	}
+	.review_text .title {
+		text-align: center;
+	}
+	.review_block {
+		height: auto;
+	}
+	.map_inside_block {
+		width: 100%;
+		left: 0;
+	}
+	.bottom_nav li {
+		margin-bottom: 10px;
+	}
+	.nonebox {
+		width: 300px;
+		padding: 20px 10px ;
+		height: auto;
+	}
+	.nonebox .title {
+		font-size: 25px;
+		margin-top: 0;
+	}
+	.modal_input {
+		width: 100%;
+	}
+	a.box-close {
+		width: 22px;
+		height: 22px;
+		margin: -25px -20px 0px 0px;
+		background: url('../images/close2.png') 
+	}
+	.acordeon_table tr td:nth-child(1) {
+		font-size: 13px;
+	}
+	.acordeon_table tr td {
+		padding: 5px 10px;
+	}
+	.acordeon_table tr td:nth-child(2) {
+		font-size: 14px;
+	}
+	.sroki_a {
+		margin-right: 0;
+		width: 100%;
+	}
+	.give_cons {
+		margin-top: 0;
+		width: 100%;
+	}
+	.acordeon_photo {
+		margin-bottom: 20px;
+	}
+	.waranty_icon {
+		width: 30%;
+	} 
+ }

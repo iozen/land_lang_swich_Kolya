@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+	<title>Название фирмы </title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon-2.ico">
+  	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+</head>
+<body>
+<!-- HEADER -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<a href="index.html"><img src="images/logo.png" alt="Alt" class="logo"></a>
+				</div>
+				<div class="col-md-3 col-md-offset-2 col-sm-4 col-xs-12">
+					<div class="call_top">
+						Звонок по городу:<br>	
+						<span>8 (000) 000-00-00</span><br>
+						Ежедневно с 08:00 до 21:00
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4">
+					<a href="#" class="call_top_button open_modal">Заказать обратный звонок</a>
+				</div>
+			</div>
+		</div>
+	</header>
+<!-- END HEADER -->
+<!-- MAIN SLIDER -->
+	<div class="main_slider_bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Сантехник в <span>городе и области</span> в выездом сегодня</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-xs-12">
+					<div class="consultation_block clearfix">
+						<div class="title">Получите консультацию и детальный расчет бесплатно</div>
+						<form action="javascript:void(null);" method="post" id="form_1" onsubmit="sendForm('form_1');">
+							<input type="text" name="phone" placeholder="+ 7 (___)-___-__-__" class="cons_input tel_phone" required>
+							<input type="hidden" name="subject" value="Получите консультацию и детальный расчет бесплатно">
+							<input type="submit" value="Позвоните мне" class="cons_sumbit">
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="we_do clearfix">
+						<div class="title">Установим/заменим:</div>
+						<div class="list_wrp">
+							<ul>
+								<li>счетчик на воду</li>
+								<li>смесители и мойки</li>
+								<li>унитазы/биде/ванны</li>
+								<li>душевые кабинки</li>
+							</ul>
+							<ul>
+								<li>радиаторы отопления</li>
+								<li>заменим трубы</li>
+								<li>и многое другое</li>
+							</ul>
+						</div>
+						<div class="divider"></div>
+						<div class="title">Честные цены без обмана</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- END MAIN SLIDER -->
+<!-- AVDANTAGES -->
+	<div class="advantages_wrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<div class="advantages_block">
+						<img src="images/advantages_icon1.png" alt="Alt">
+						<div class="text_advantages">
+							<div class="title">Оперативно работаем</div>
+							<p>Начало работ в день<br> обращения</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="advantages_block">
+						<img src="images/advantages_icon2.png" alt="Alt">
+						<div class="text_advantages">
+							<div class="title">Опытные специалисты</div>
+							<p>Все сантехники имеют диплом о специальном образовании</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="advantages_block">
+						<img src="images/advantages_icon3.png" alt="Alt" class="fiximg">
+						<div class="text_advantages">
+							<div class="title">Фиксированные цены</div>
+							<p>У нас честные цены,<br> закрепленны в договоре</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="advantages_block">
+						<img src="images/advantages_icon4.png" alt="Alt">
+						<div class="text_advantages">
+							<div class="title">Гарантия 1 год</div>
+							<p>Гарантия на все работы<br> прописанны в договоре</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- END AVDANTAGES -->
+<!-- USLUGI -->
+	<div class="uslugi_bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="h1">Наші послуги і ціни</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="acordeon_wrap">
+						<div class="acordeon_content">
+							<div id="acordeon" class="panel-group">
+								<div class="panel panel-default">
+									<div class="panel-heading bt1" data-toggle="collapse" data-parent="#acordeon" data-target="#collapse-1">
+										<div class="panel-title bt">
+											<a href="#collapse-1" data-parent="#acordeon" data-toggle="collapse" class="accordion-toggle">Установка счетчика воды</a>
+										</div>
+									</div>
+									<div id="collapse-1" class="panel-collapse collapse in">
+										<div class="panel-body">
+										<div class="row">
+											<div class="col-md-3 col-sm-5">
+												<div class="acordeon_photo">
+													<img src="images/photo_acordeon.jpg" alt="Alt">
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-7">
+												<div class="sroki">
+													<p>Сроки: <span>0,5 - 2 часа</span></p>
+													<p>Гарантия: <span>1 год</span></p>
+													<p>Заключаем договор</p>
+													<p>Выезд сантехника бесплатно</p>
+													
+												</div>
+											</div>
+											<div class="col-md-6">
+												<table class="acordeon_table">
+													<tr>
+														<td>Замена счётчика воды</td>
+														<td>320</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Установка счётчика воды (полипропиленовые или металлопластиковые трубы)</td>
+														<td>700</td>
+													</tr>
+													<tr>
+														<td>Установка счётчика воды (металлические трубы)</td>
+														<td>900</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Демонтаж счётчика воды</td>
+														<td>100</td>
+													</tr>
+												</table>
+												
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="ac_buttons">
+													<a href="#" class="open_modal sroki_a">Заказать услугу</a>
+													<a href="#" class="give_cons open_modal">Получить консультацию</a>
+												</div>
+											</div>
+										</div>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading bt1">
+										<div class="panel-title bt" data-toggle="collapse" data-parent="#acordeon" data-target="#collapse-2">
+											<a href="#collapse-2" data-parent="#acordeon" data-toggle="collapse" class="accordion-toggle">Установка радиаторов отопления</a>
+										</div>
+									</div>
+									<div id="collapse-2" class="panel-collapse collapse">
+										<div class="panel-body">
+										<div class="row">
+											<div class="col-md-3">
+												<div class="acordeon_photo">
+													<img src="images/photo_acordeon.jpg" alt="Alt">
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-7">
+												<div class="sroki">
+													<p>Сроки: <span>0,5 - 2 часа</span></p>
+													<p>Гарантия: <span>1 год</span></p>
+													<p>Заключаем договор</p>
+													<p>Выезд сантехника бесплатно</p>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<table class="acordeon_table">
+													<tr>
+														<td>Демонтаж радиатора</td>
+														<td>500</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Монтаж радиатора на готовые сгоны</td>
+														<td>1500</td>
+													</tr>
+													<tr>
+														<td>Монтаж радиатора (полная установка). Полипропилен, металлопластик/металл.</td>
+														<td>2300/2700</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Добавление секций к установленному радиатору</td>
+														<td>1500</td>
+													</tr>
+													<tr>
+														<td>Замена крана/вентиля диаметр 1/2 (15)</td>
+														<td>350/650</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Замена крана/вентиля диаметр 3/4 (20)</td>
+														<td>350/1000</td>
+													</tr>
+													<tr>
+														<td>Устройство теплых полов за кв.м.</td>
+														<td>350–700</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Установка газового или электрического котла</td>
+														<td>от 1400</td>
+													</tr>
+													<tr>
+														<td>Установка и обвязка газового или электрического котла (котел)</td>
+														<td>от 3000</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Замена стояка отопления</td>
+														<td>1400</td>
+													</tr>
+													<tr>
+														<td>Опрессовка радиаторов (шт.)</td>
+														<td>300</td>
+													</tr>
+												</table>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="ac_buttons">
+													<a href="#" class="open_modal sroki_a">Заказать услугу</a>
+													<a href="#" class="give_cons open_modal">Получить консультацию</a>
+												</div>
+											</div>
+										</div>
+										</div>
+									</div>
+								</div>
+																<div class="panel panel-default">
+									<div class="panel-heading bt1">
+										<div class="panel-title bt" data-toggle="collapse" data-parent="#acordeon" data-target="#collapse-4">
+											<a href="#collapse-4" data-parent="#acordeon" data-toggle="collapse" class="accordion-toggle">Установка раковины / мойки</a>
+										</div>
+									</div>
+									<div id="collapse-4" class="panel-collapse collapse">
+										<div class="panel-body">
+										<div class="row">
+											<div class="col-md-3">
+												<div class="acordeon_photo">
+													<img src="images/photo_acordeon.jpg" alt="Alt">
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-7">
+												<div class="sroki">
+													<p>Сроки: <span>0,5 - 2 часа</span></p>
+													<p>Гарантия: <span>1 год</span></p>
+													<p>Заключаем договор</p>
+													<p>Выезд сантехника бесплатно</p>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<table class="acordeon_table">
+													<tr>
+														<td>Монтаж раковины или мойки на кронштейнах или на пьедестале типа «тюльпан»</td>
+														<td>650</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Монтаж врезной мойки</td>
+														<td>600</td>
+													</tr>
+													<tr>
+														<td>Монтаж раковины с готовой (собранной) тумбой (без смесителя, верхнего шкафчика и зеркала)</td>
+														<td>500</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Монтаж раковины с полной сборкой тумбы (без смесителя, верхнего шкафчика и зеркала)</td>
+														<td>1500</td>
+													</tr>
+													<tr>
+														<td>Монтаж раковины с готовой (собранной) тумбой с верхним шкафчиком и/или зеркалом (без смесителя)</td>
+														<td>1450</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Монтаж раковины с полной сборкой тумбы с верхним шкафчиком и/или зеркалом (без смесителя)</td>
+														<td>1950</td>
+													</tr>
+													<tr>
+														<td>Монтаж/замена сифона раковины или мойки</td>
+														<td>240</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Вырез столешницы под мойку</td>
+														<td>300</td>
+													</tr>
+													<tr>
+														<td>Демонтаж сифона мойки или умывальника</td>
+														<td>100</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Демонтаж раковины на кронштейнах или пьедестала «тюльпан», или тумбы «мойдодыр», или мойки</td>
+														<td>200</td>
+													</tr>
+													<tr>
+														<td>Демонтаж кронштейна раковины или мойки</td>
+														<td>100</td>
+													</tr>
+												</table>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="ac_buttons">
+													<a href="#" class="open_modal sroki_a">Заказать услугу</a>
+													<a href="#" class="give_cons open_modal">Получить консультацию</a>
+												</div>
+											</div>
+										</div>
+										</div>
+									</div>
+								</div>
+																<div class="panel panel-default">
+									<div class="panel-heading bt1">
+										<div class="panel-title bt" data-toggle="collapse" data-parent="#acordeon" data-target="#collapse-5">
+											<a href="#collapse-5" data-parent="#acordeon" data-toggle="collapse" class="accordion-toggle">Установка смесителя</a>
+										</div>
+									</div>
+									<div id="collapse-5" class="panel-collapse collapse">
+										<div class="panel-body">
+										<div class="row">
+											<div class="col-md-3">
+												<div class="acordeon_photo">
+													<img src="images/photo_acordeon.jpg" alt="Alt">
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-7">
+												<div class="sroki">
+													<p>Сроки: <span>0,5 - 2 часа</span></p>
+													<p>Гарантия: <span>1 год</span></p>
+													<p>Заключаем договор</p>
+													<p>Выезд сантехника бесплатно</p>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<table class="acordeon_table">
+													<tr>
+														<td>Монтаж/замена смесителя на мойку или раковину</td>
+														<td>590</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Монтаж/замена бесконтактного смесителя (с датчиком)</td>
+														<td>900</td>
+													</tr>
+													<tr>
+														<td>Замена гибкой подводки на смеситель</td>
+														<td>100</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Замена гусака смесителя</td>
+														<td>100</td>
+													</tr>
+													<tr>
+														<td>Чистка фильтра на гусаке смесителя</td>
+														<td>100</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Замена прокладки смесителя</td>
+														<td>100</td>
+													</tr>
+													<tr>
+														<td>Высверливание отверстия под смеситель в мойке</td>
+														<td>300</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Демонтаж смесителя на умывальнике или мойке</td>
+														<td>200</td>
+													</tr>
+												</table>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="ac_buttons">
+													<a href="#" class="open_modal sroki_a">Заказать услугу</a>
+													<a href="#" class="give_cons open_modal">Получить консультацию</a>
+												</div>
+											</div>
+										</div>
+										</div>
+									</div>
+								</div>
+																<div class="panel panel-default">
+									<div class="panel-heading bt1">
+										<div class="panel-title bt" data-toggle="collapse" data-parent="#acordeon" data-target="#collapse-6">
+											<a href="#collapse-6" data-parent="#acordeon" data-toggle="collapse" class="accordion-toggle">Установка унитаза / биде</a>
+										</div>
+									</div>
+									<div id="collapse-6" class="panel-collapse collapse">
+										<div class="panel-body">
+										<div class="row">
+											<div class="col-md-3">
+												<div class="acordeon_photo">
+													<img src="images/photo_acordeon.jpg" alt="Alt">
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-7">
+												<div class="sroki">
+													<p>Сроки: <span>0,5 - 2 часа</span></p>
+													<p>Гарантия: <span>1 год</span></p>
+													<p>Заключаем договор</p>
+													<p>Выезд сантехника бесплатно</p>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<table class="acordeon_table">
+													<tr>
+														<td>Замена гибкой подводки (к бачку унитаза или смесителю для биде)</td>
+														<td>150</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Замена сиденья к унитазу без снятия бачка</td>
+														<td>200</td>Установка счетчика воды
+													</tr>
+													<tr>
+														<td>Демонтаж биде</td>
+														<td>200</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Демонтаж унитаза</td>
+														<td>250</td>
+													</tr>
+													<tr>
+														<td>Регулировка смывного бачка</td>
+														<td>350</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Замена манжета/гофры к унитазу</td>
+														<td>300</td>
+													</tr>
+													<tr>
+														<td>Замена сиденья к унитазу без снятия бачка/со снятием бачка</td>
+														<td>200/400</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Замена арматуры (внутренностей) бачка унитаза</td>
+														<td>800</td>
+													</tr>
+													<tr>
+														<td>Установка/замена унитаза на готовую (смонтированную) систему инсталляции</td>
+														<td>1100</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Установка/замена унитаза с бачком на ровный пол или плитку</td>
+														<td>1500</td>
+													</tr>
+													<tr>
+														<td>Установка/замена унитаза с бачком, с демонтажом деревянной и выравниванием стяжки пола</td>
+														<td>2000</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Установка/замена биде со смесителем</td>
+														<td>1500</td>
+													</tr>
+													<tr>
+														<td>Монтаж системы инсталляции с подвесным унитазом</td>
+														<td>3400</td>
+													</tr>
+												</table>
+							
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="ac_buttons">
+													<a href="#" class="open_modal sroki_a">Заказать услугу</a>
+													<a href="#" class="give_cons open_modal">Получить консультацию</a>
+												</div>
+											</div>
+										</div>
+										</div>
+									</div>
+								</div>
+																<div class="panel panel-default">
+									<div class="panel-heading bt1">
+										<div class="panel-title bt" data-toggle="collapse" data-parent="#acordeon" data-target="#collapse-7">
+											<a href="#collapse-7" data-parent="#acordeon" data-toggle="collapse" class="accordion-toggle">Установка душевых кабин</a>
+										</div>
+									</div>
+									<div id="collapse-7" class="panel-collapse collapse">
+										<div class="panel-body">
+										<div class="row">
+											<div class="col-md-3">
+												<div class="acordeon_photo">
+													<img src="images/photo_acordeon.jpg" alt="Alt">
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-7">
+												<div class="sroki">
+													<p>Сроки: <span>0,5 - 2 часа</span></p>
+													<p>Гарантия: <span>1 год</span></p>
+													<p>Заключаем договор</p>
+													<p>Выезд сантехника бесплатно</p>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<table class="acordeon_table">
+													<tr>
+														<td>Монтаж/замена душевого поддона на готовую площадку</td>
+														<td>1250</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Монтаж/замена душевого поддона с подготовкой площадки</td>
+														<td>3000</td>
+													</tr>
+													<tr>
+														<td>Монтаж душевой кабины</td>
+														<td>от 3300</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Монтаж/замена настенного смесителя с душем</td>
+														<td>750/950</td>
+													</tr>
+													<tr>
+														<td>Установка штанги для душа</td>
+														<td>150</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Замена гусака смесителя</td>
+														<td>100</td>
+													</tr>
+													<tr>
+														<td>Чистка фильтра на гусаке смесителя</td>
+														<td>100</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Замена прокладки смесителя</td>
+														<td>100</td>
+													</tr>
+													<tr>
+														<td>Демонтаж штанги душа</td>
+														<td>100</td>
+													</tr>
+												</table>
+
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="ac_buttons">
+													<a href="#" class="open_modal sroki_a">Заказать услугу</a>
+													<a href="#" class="give_cons open_modal">Получить консультацию</a>
+												</div>
+											</div>
+										</div>
+										</div>
+									</div>
+								</div>
+																<div class="panel panel-default">
+									<div class="panel-heading bt1" data-toggle="collapse" data-parent="#acordeon" data-target="#collapse-8">
+										<div class="panel-title bt">
+											<a href="#collapse-8" data-parent="#acordeon" data-toggle="collapse" class="accordion-toggle">Установка полотенцесушителя</a>
+										</div>
+									</div>
+									<div id="collapse-8" class="panel-collapse collapse">
+										<div class="panel-body">
+										<div class="row">
+											<div class="col-md-3">
+												<div class="acordeon_photo">
+													<img src="images/photo_acordeon.jpg" alt="Alt">
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-7">
+												<div class="sroki">
+													<p>Сроки: <span>0,5 - 2 часа</span></p>
+													<p>Гарантия: <span>1 год</span></p>
+													<p>Заключаем договор</p>
+													<p>Выезд сантехника бесплатно</p>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<table class="acordeon_table">
+													<tr>
+														<td>Монтаж полотенцесушителя (без перемычки) тип "М", "П" / "ЛЕСЕНКА"</td>
+														<td>1900/4900</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Монтаж полотенцесушителя (с перемычкой) тип "М", "П" /</td>
+														<td>2900/5900</td>
+													</tr>
+													<tr>
+														<td>Монтаж полотенцесушителя на готовые сгоны</td>
+														<td>700</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Демонтаж полотенцесушителя</td>
+														<td>300</td>
+													</tr>
+												</table>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="ac_buttons">
+													<a href="#" class="open_modal sroki_a">Заказать услугу</a>
+													<a href="#" class="give_cons open_modal">Получить консультацию</a>
+												</div>
+											</div>
+										</div>
+										</div>
+									</div>
+								</div>
+																<div class="panel panel-default">
+									<div class="panel-heading bt1" data-toggle="collapse" data-parent="#acordeon" data-target="#collapse-9">
+										<div class="panel-title bt">
+											<a href="#collapse-9" data-parent="#acordeon" data-toggle="collapse" class="accordion-toggle">Замена труб</a>
+										</div>
+									</div>
+									<div id="collapse-9" class="panel-collapse collapse">
+										<div class="panel-body">
+										<div class="row">
+											<div class="col-md-3">
+												<div class="acordeon_photo">
+													<img src="images/photo_acordeon.jpg" alt="Alt">
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-7">
+												<div class="sroki">
+													<div class="title_table">Пластиковые трубы</div>
+													<p>- <span>Не дорогие по стоимости</span></p>
+													<p>- <span>Легкие в монтаже</span></p>
+													<p>- <span>Не подвержены коррозии и не собирают отложения</span></p>
+													<p>- <span>Срок службы 50 лет</span></p>
+													<div class="title_table">Металлопластиковые трубы</div>
+													<p>- <span>Пластичные в работе</span></p>
+													<p>- <span>Не подвержены коррозии и отложениям</span></p>
+													<p>- <span>Срок службы 35 лет</span></p>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="dont_know">Не знаете, какой вариант выбрать? Позвоните нам – мы поможем!</div>
+												<div class="title_table">Пластиковые трубы</div>
+												<p class="table_text">Самый популярный вариант для замены старых труб – полипропиленовые трубы.</p>
+												<table class="acordeon_table">
+													<tr>
+														<td>Монтаж полипропиленовых труб г/х водоснабжения  (до 3-х метров)</td>
+														<td>1400</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Разводка полипропиленовых труб (за метр)</td>
+														<td>400</td>
+													</tr>
+													<tr>
+														<td>Прокладка труб (за метр)</td>
+														<td>100</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Обрезка и зачистка труб</td>
+														<td>80</td>
+													</tr>
+													<tr>
+														<td>Установка «американок»</td>
+														<td>100</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Пайка трубы</td>
+														<td>250</td>
+													</tr>
+													<tr>
+														<td>Установка гребенки (в комплекте с трубами)</td>
+														<td>600</td>
+													</tr>
+												</table>
+												<div class="title_table">Металлопластиковые трубы</div>
+												<p class="table_text">Для тех, кто не хочет пластиковые трубы, но и не готов переплачивать за металлические трубы.</p>
+												<p class="table_text">Данные трубы сделаны внутри из тонкой алюминиевой ленты, а снаружи из пластика, бывают трехслойные варианты.</p>
+												<table class="acordeon_table">
+													<tr>
+														<td>Монтаж  металлопластиковых труб г/х водоснабжения  (до 3-х метров)</td>
+														<td>1400</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Разводка  металлопластиковых труб (за метр)</td>
+														<td>400</td>
+													</tr>
+													<tr>
+														<td>Прокладка труб (за метр)</td>
+														<td>100</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Обрезка и зачистка труб</td>
+														<td>80</td>
+													</tr>
+													<tr>
+														<td>Установка «американок»</td>
+														<td>100</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Пайка трубы</td>
+														<td>250</td>
+													</tr>
+													<tr>
+														<td>Установка гребенки (в комплекте с трубами)</td>
+														<td>600</td>
+													</tr>
+												</table>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="ac_buttons">
+													<a href="#" class="open_modal sroki_a">Заказать услугу</a>
+													<a href="#" class="give_cons open_modal">Получить консультацию</a>
+												</div>
+											</div>
+										</div>
+										</div>
+									</div>
+								</div>
+																<div class="panel panel-default">
+									<div class="panel-heading bt1">
+										<div class="panel-title bt" data-toggle="collapse" data-parent="#acordeon" data-target="#collapse-10">
+											<a href="#collapse-10" data-parent="#acordeon" data-toggle="collapse" class="accordion-toggle">Установка ванны / джакузи</a>
+										</div>
+									</div>
+									<div id="collapse-10" class="panel-collapse collapse">
+										<div class="panel-body">
+										<div class="row">
+											<div class="col-md-3">
+												<div class="acordeon_photo">
+													<img src="images/photo_acordeon.jpg" alt="Alt">
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-7">
+												<div class="sroki">
+													<p>Сроки: <span>0,5 - 2 часа</span></p>
+													<p>Гарантия: <span>1 год</span></p>
+													<p>Заключаем договор</p>
+													<p>Выезд сантехника бесплатно</p>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<table class="acordeon_table">
+													<tr>
+														<td>Монтаж ванны чугунной</td>
+														<td>1200</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Монтаж ванны стальной</td>
+														<td>1000</td>
+													</tr>
+													<tr>
+														<td>Монтаж акриловой ванны со сборкой рамы</td>
+														<td>2100</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Монтаж акриловой ванны на готовую раму</td>
+														<td>1500</td>
+													</tr>
+													<tr>
+														<td>Установка гидромассажной ванны</td>
+														<td>2000</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Монтаж/замена сифона на ванну (металл)</td>
+														<td>300/700</td>
+													</tr>
+													<tr>
+														<td>Монтаж/замена сифона на ванну (пластик)</td>
+														<td>300/500</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Монтаж смесителя на борт ванны</td>
+														<td>1400</td>
+													</tr>
+												</table>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="ac_buttons">
+													<a href="#" class="open_modal sroki_a">Заказать услугу</a>
+													<a href="#" class="give_cons open_modal">Получить консультацию</a>
+												</div>
+											</div>
+										</div>
+										</div>
+									</div>
+								</div>
+																<div class="panel panel-default">
+									<div class="panel-heading bt1">
+										<div class="panel-title bt" data-toggle="collapse" data-parent="#acordeon" data-target="#collapse-11">
+											<a href="#collapse-11" data-parent="#acordeon" data-toggle="collapse" class="accordion-toggle">Установка водонагревателей</a>
+										</div>
+									</div>
+									<div id="collapse-11" class="panel-collapse collapse">
+										<div class="panel-body">
+										<div class="row">
+											<div class="col-md-3">
+												<div class="acordeon_photo">
+													<img src="images/photo_acordeon.jpg" alt="Alt">
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-7">
+												<div class="sroki">
+													<p>Сроки: <span>0,5 - 2 часа</span></p>
+													<p>Гарантия: <span>1 год</span></p>
+													<p>Заключаем договор</p>
+													<p>Выезд сантехника бесплатно</p>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<table class="acordeon_table">
+													<tr>
+														<td>Установка накопительного водонагревателя до 50 л.</td>
+														<td>1400</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Установка накопительного водонагревателя от 51 л.</td>
+														<td>1900</td>
+													</tr>
+													<tr>
+														<td>Установка проточного водонагревателя до 10 кВт</td>
+														<td>1400</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Установка проточного водонагревателя свыше 10 кВт</td>
+														<td>договорная</td>
+													</tr>
+													<tr>
+														<td>Устранение засора сифона</td>
+														<td>300</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Устранение засора унитаза</td>
+														<td>900</td>
+													</tr>
+													<tr>
+														<td>Устранение засора в разводке канализации (горизонтальная труба в квартире)</td>
+														<td>1300</td>
+													</tr>
+													<tr class="custom_bg">
+														<td>Пробивка засора электромеханическим оборудованием в длину до 20 м</td>
+														<td>2200</td>
+													</tr>
+													<tr>
+														<td>Пробивка засора и промывка труб гидродинамической машиной высокого давления в длину до 30 м</td>
+														<td>4500</td>
+													</tr>
+												</table>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="ac_buttons">
+													<a href="#" class="open_modal sroki_a">Заказать услугу</a>
+													<a href="#" class="give_cons open_modal">Получить консультацию</a>
+												</div>
+											</div>
+										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- END USLUGI -->
+<!-- SYSTEM -->
+	<div class="system_bg">	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="h1">Честная система работы</div>
+			</div>
+		</div>
+		<div class="system_wrap">
+			<div class="row">
+				<div class="col-md-6 col-xs-12">
+					<div class="system_block">
+						<div class="blue_block">
+							<div class="img_wrapper">
+								<img src="images/b_icon1.png" alt="Alt">
+							</div>
+						</div>
+						<div class="s_text">
+							<div class="title">Вызываете мастера.</div>
+							<p>Вы звоните по номеру <span>8 (000) 000-00-00</span> или оставляете заявку</p>
+							<a href="#" class="s_button open_modal">Оставить заявку</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1">
+					<img src="images/s_icon1.png" alt="Alt" class="arrow_system">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-1 col-md-offset-5">
+					<img src="images/s_icon2.png" alt="Alt" class="arrow_system">
+				</div>
+				<div class="col-md-6">
+					<div class="system_block">
+						<div class="blue_block">
+							<div class="img_wrapper">
+								<img src="images/b_icon2.png" alt="Alt">
+							</div>
+						</div>
+						<div class="s_text">
+							<div class="title">Приезжает мастер</div>
+								<p>Консультирует Вас по объему работ, необходимым материалам (фильтры, арматура, прокладки, шланги и прочее)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="system_block">
+						<div class="blue_block">
+							<div class="img_wrapper">
+								<img src="images/b_icon3.png" alt="Alt">
+							</div>
+						</div>
+						<div class="s_text">
+							<div class="title">Мастер составит смету</div>
+								<p>по <a href="#">фиксированным</a> в прайсе ценам </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1">
+					<img src="images/s_icon1.png" alt="Alt" class="arrow_system">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-1 col-md-offset-5">
+					<img src="images/s_icon2.png" alt="Alt" class="arrow_system">
+				</div>
+				<div class="col-md-6">
+					<div class="system_block">
+						<div class="blue_block">
+							<div class="img_wrapper">
+								<img src="images/b_icon4.png" alt="Alt">
+							</div>
+						</div>
+						<div class="s_text">
+							<div class="title">Если вы согласны</div>
+								<p>мы заключаем договор, и мастер приступает к работе </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="system_block">
+						<div class="blue_block">
+							<div class="img_wrapper">
+								<img src="images/b_icon5.png" alt="Alt">
+							</div>
+						</div>
+						<div class="s_text">
+							<div class="title">Вы принимаете работу</div>
+								<p>И оплачиваете услуги по договору</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>	
+<!-- END SYSTEM -->
+<!-- WARANTY -->
+	<div class="waranty_bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<img src="images/warranty_icon.png" alt="Alt" class="waranty_icon">
+				</div>
+				<div class="col-md-7">
+					<div class="waranty_text">
+						<div class="title">Гарантия</div>
+						<p>Мы уверены в качестве наших услуг. По этому на все работы предоставляем гарантию. Все наши мастера проходят тщательный отбор имеют специальное образование и раз в год атестуются.</p>
+						<p>Если у Вас наступил гарантийный случай к Вам приедет то же специалист (или другой, на Ваш выбор) и <span>БЕСПЛАТНО</span> устранит проблему.</p>
+						<div class="divider"></div>
+						<div class="yellow_text">Услуги гарантии прописаны в нашем договоре</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- END WARANTY -->
+<!-- MAIN FORM -->
+	<div class="main_form_bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="main_form_h1">Сомневаетесь в стоимости работ?</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="main_form_h2">Закажите бесплатный расчет прямо сейчас: напишите ваш номер телефона<br> и нажмите на кнопку</div>
+					<form action="javascript:void(null);" method="post" id="form_2" onsubmit="sendForm('form_2');">
+							<input type="text" name="phone" placeholder="+ 7 (___)-___-__-__" class="cons_input tel_phone" required>
+							<input type="hidden" name="subject" value="Закажите бесплатный расчет прямо сейчас">
+							<input type="submit" value="Заказать обратный звонок" class="cons_sumbit">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- END MAIN FORM -->
+<!-- REVIEWS -->
+	<div class="reviews_bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="h1">Отзывы наших клиентов</div>
+				</div>
+			</div>
+		<ul class="bxslider">
+			<li>
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						<div class="review_block clearfix">
+							<img src="images/review_photo1.jpg" alt="Alt">
+							<div class="review_text">
+								<div class="title">Егор П., Адрес: название города</div>
+								<p>Сантехник приехал в течение часа после звонка. <br>Замена крана на
+								кухне заняло всего 20 минут.<br> Очень вежливый мастер.Порекомендовал установить фильтр к счетчику.<br> Спасибо.</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-6 hide1">
+						<div class="review_block clearfix">
+							<img src="images/review_photo2.jpg" alt="Alt">
+							<div class="review_text">
+								<div class="title">Егор П., Адрес: название города</div>
+								<p>Сантехник приехал в течение часа после звонка. <br>Замена крана на
+								кухне заняло всего 20 минут.<br> Очень вежливый мастер.Порекомендовал установить фильтр к счетчику.<br> Спасибо.</p>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 hide1">
+						<div class="review_block clearfix">
+							<img src="images/review_photo3.jpg" alt="Alt">
+							<div class="review_text">
+								<div class="title">Егор П., Адрес: название города</div>
+								<p>Сантехник приехал в течение часа после звонка. <br>Замена крана на
+								кухне заняло всего 20 минут.<br> Очень вежливый мастер.Порекомендовал установить фильтр к счетчику.<br> Спасибо.</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-6 hide1">
+						<div class="review_block clearfix">
+							<img src="images/review_photo4.jpg" alt="Alt">
+							<div class="review_text">
+								<div class="title">Егор П., Адрес: название города</div>
+								<p>Сантехник приехал в течение часа после звонка. <br>Замена крана на
+								кухне заняло всего 20 минут.<br> Очень вежливый мастер.Порекомендовал установить фильтр к счетчику.<br> Спасибо.</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						<div class="review_block clearfix">
+							<img src="images/review_photo5.jpg" alt="Alt">
+							<div class="review_text">
+								<div class="title">Егор П., Адрес: название города</div>
+								<p>Сантехник приехал в течение часа после звонка. <br>Замена крана на
+								кухне заняло всего 20 минут.<br> Очень вежливый мастер.Порекомендовал установить фильтр к счетчику.<br> Спасибо.</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-6 hide1">
+						<div class="review_block clearfix">
+							<img src="images/review_photo6.jpg" alt="Alt">
+							<div class="review_text">
+								<div class="title">Егор П., Адрес: название города</div>
+								<p>Сантехник приехал в течение часа после звонка. <br>Замена крана на
+								кухне заняло всего 20 минут.<br> Очень вежливый мастер.Порекомендовал установить фильтр к счетчику.<br> Спасибо.</p>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 hide1">
+						<div class="review_block clearfix">
+							<img src="images/review_photo7.jpg" alt="Alt">
+							<div class="review_text">
+								<div class="title">Егор П., Адрес: название города</div>
+								<p>Сантехник приехал в течение часа после звонка. <br>Замена крана на
+								кухне заняло всего 20 минут.<br> Очень вежливый мастер.Порекомендовал установить фильтр к счетчику.<br> Спасибо.</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-6 hide1">
+						<div class="review_block clearfix">
+							<img src="images/review_photo8.jpg" alt="Alt">
+							<div class="review_text">
+								<div class="title">Егор П., Адрес: название города</div>
+								<p>Сантехник приехал в течение часа после звонка. <br>Замена крана на
+								кухне заняло всего 20 минут.<br> Очень вежливый мастер.Порекомендовал установить фильтр к счетчику.<br> Спасибо.</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						<div class="review_block clearfix">
+							<img src="images/review_photo9.jpg" alt="Alt">
+							<div class="review_text">
+								<div class="title">Егор П., Адрес: название города</div>
+								<p>Сантехник приехал в течение часа после звонка. <br>Замена крана на
+								кухне заняло всего 20 минут.<br> Очень вежливый мастер.Порекомендовал установить фильтр к счетчику.<br> Спасибо.</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-6 hide1">
+						<div class="review_block clearfix">
+							<img src="images/review_photo5.jpg" alt="Alt">
+							<div class="review_text">
+								<div class="title">Егор П., Адрес: название города</div>
+								<p>Сантехник приехал в течение часа после звонка. <br>Замена крана на
+								кухне заняло всего 20 минут.<br> Очень вежливый мастер.Порекомендовал установить фильтр к счетчику.<br> Спасибо.</p>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 hide1">
+						<div class="review_block clearfix">
+							<img src="images/review_photo11.jpg" alt="Alt">
+							<div class="review_text">
+								<div class="title">Егор П., Адрес: название города</div>
+								<p>Сантехник приехал в течение часа после звонка. <br>Замена крана на
+								кухне заняло всего 20 минут.<br> Очень вежливый мастер.Порекомендовал установить фильтр к счетчику.<br> Спасибо.</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-6 hide1">
+						<div class="review_block clearfix">
+							<img src="images/review_photo12.jpg" alt="Alt">
+							<div class="review_text">
+								<div class="title">Егор П., Адрес: название города</div>
+								<p>Сантехник приехал в течение часа после звонка. <br>Замена крана на
+								кухне заняло всего 20 минут.<br> Очень вежливый мастер.Порекомендовал установить фильтр к счетчику.<br> Спасибо.</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		</div>
+	</div>
+<!-- END REVIEWS -->
+<!-- QUESTIONS -->
+	<div class="questions_wrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="h1">Есть вопросы?</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="q_text">Звоните нам в офис по телефону:<br>	
+					8 (000) 000-00-00<br>
+					или
+					<a href="#" class="open_modal">Задать вопрос специалисту</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- END QUESTIONS -->
+<!-- MAP -->
+	<div id="map">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<div class="map_inside_block">
+
+						<div class="title">Контакты:</div>
+						<p><span>8 (000) 000-00-00</span></p>
+						<p><a href="mailto:info@gmail.com">info@gmail.com</a></p>
+						<p>Город, улица, дом, офис</p>
+						<p>Пн-Вс: 08:00-21:00 без выходных</p>
+						<a href="#" class="map_inside_button open_modal">Заказать обратный звонок</a>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+																													<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7b28f859de4f78b83b3318f65b2312cbf19453338117252d2f9f505ef573ce95&amp;width=100%&amp;height=390&amp;lang=ru_UA&amp;scroll=true"></script>
+	</div>
+<!-- END MAP -->
+<!-- FOOTER -->
+	<div class="footer_bg">	
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-4">
+					<a href="index.html"><img src="images/logo_white.png" alt="Alt" class="logo_white"></a>
+				</div>
+				<div class="col-md-7 col-md-offset-2 col-sm-8"">
+					<ul class="bottom_nav">
+						<li><a href="#" class="ontop">Наверх</a></li>
+						<li><a href="#" class="scrollto1">Наши услуги и цены</a></li>
+						<li><a href="#" class="scrollto2">Схема работы</a></li>
+						<li><a href="#" class="scrollto3">Гарантия</a></li>
+					</ul>
+					<a href="#" class="pol">Политика конфиденциальности</a>
+					<a href="#" class="vk_icon"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- END FOOTER -->
+<!-- MODAL1 -->
+<div class="overlay" id="overlay" style="display:none;"></div> 
+    <div class="nonebox nonebox_cb" id="nonebox"> 
+     <a class="box-close one" id="box-close" href="#"></a>
+		<div class="title">Заказать обратный звонок</div>
+		<form action="javascript:void(null);" method="post" id="form_3" onsubmit="sendForm('form_3');">
+			<input type="text" name="name" placeholder="Ваше имя:" class="modal_input" required>
+			<input type="text" name="phone" placeholder="Ваш телефон:" class="modal_input" required>
+			<input type="hidden" name="subject" value="Обратный звонок">
+			<input type="submit" value="Отправить заявку" class="modal_submit">
+		</form>
+    </div> 
+
+    <div class="nonebox nonebox_th" id="nonebox_th" style="height: 120px;"> 
+     <a class="box-close one" id="box-close" href="#"></a>
+		<div class="title">Спасибо</div>
+		<p>Ваша заявка отправлена. Мы скоро свяжемся с Вами!</p>
+    </div> 
+<!-- END MODAL1 -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+<script src="js/jquery.maskedinput.js"></script>
+<script src="js/script.js"></script>
+
+ </body>
+</html>
