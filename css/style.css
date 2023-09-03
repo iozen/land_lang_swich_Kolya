@@ -819,3 +819,14 @@ z-index: 30;
 	height: 70px;
 }
 /*END VIBER*/
+
+/*
+* lang swicher
+*/
+
+.lang_swich {
+	font-weight:bold;
+	padding: 3px 0 3px 0;
+	background-color:#f3f3f3;
+}
+
